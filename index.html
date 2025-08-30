@@ -1,175 +1,64 @@
-<!DOCTYPE html><html lang="en">
+<!doctype html>
+<html lang="hi">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SJD CREATION • Fine Jewelry Design</title>
-  <meta name="description" content="SJD CREATION — Premium handcrafted jewelry design studio with 6+ years of experience. Custom bridal, daily luxe, and statement pieces." />
-  <meta name="theme-color" content="#0f0f10" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0f0f10;--card:#141416;--muted:#b9b9c2;--text:#f5f5f7;--gold-start:#caa86a;--gold-mid:#e4c983;--gold-end:#a17f3b;--accent:#f0e6c8;--ring:#27272a
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;height:100%;scroll-behavior:smooth}
-    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(1200px 800px at 80% -10%,#1b1b1d 0%,#0e0e0f 60%, #0a0a0a 100%), var(--bg);color:var(--text)}
-    a{color:inherit;text-decoration:none}
-    .container{max-width:1200px;margin:0 auto;padding:24px}
-    .nav{position:sticky;top:0;backdrop-filter:blur(8px);background:linear-gradient(180deg,rgba(10,10,11,.9),rgba(10,10,11,.6) 60%,rgba(10,10,11,0));z-index:50;border-bottom:1px solid var(--ring)}
-    .nav .row{display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:40px;height:40px;border-radius:50%;background:conic-gradient(from 20deg,var(--gold-start),var(--gold-mid),var(--gold-end),var(--gold-start));display:grid;place-items:center;box-shadow:0 10px 30px rgba(255,215,130,.15)}
-    .logo svg{filter:drop-shadow(0 2px 2px rgba(0,0,0,.5))}
-    .brand h1{font-family:Marcellus,serif;font-size:20px;letter-spacing:.24em;margin:0}
-    .nav a{font-size:14px;color:var(--muted);margin-left:18px}
-    .btn{display:inline-grid;place-items:center;padding:12px 18px;border-radius:14px;border:1px solid #3a3a3f;background:linear-gradient(180deg,#1a1a1e,#121214);color:var(--text)}
-    .btn.gold{border:0;background:linear-gradient(180deg,var(--gold-mid),var(--gold-start),var(--gold-end));color:#1a1408;box-shadow:0 10px 30px rgba(224,200,130,.25);font-weight:600}
-    .hero{padding:96px 24px 72px;display:grid;gap:24px}
-    .hero h2{font-family:Marcellus,serif;font-size:56px;line-height:1.04;margin:0;background:linear-gradient(180deg,#fff,#ddd);-webkit-background-clip:text;background-clip:text;color:transparent}
-    .hero p{color:var(--muted);max-width:720px}
-    .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
-    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;border:1px solid var(--ring);color:var(--accent);background:rgba(255,255,255,.03)}.section{padding:56px 24px}
-.section h3{font-family:Marcellus,serif;font-size:32px;margin:0 0 8px}
-.muted{color:var(--muted)}
-
-/* Portfolio grid */
-.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}
-.card{grid-column:span 4;position:relative;border-radius:20px;overflow:hidden;background:linear-gradient(180deg,#1a1a1e,#121214);border:1px solid var(--ring)}
-.card .img{aspect-ratio:4/5;background:#0d0d0f;display:block}
-.card .cap{position:absolute;inset:auto 0 0 0;padding:14px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.8));font-size:14px}
-.chip{display:inline-block;margin-top:6px;padding:4px 8px;border-radius:999px;border:1px solid #3a3a3f;color:#dfd5b3}
-
-@media (max-width:960px){.card{grid-column:span 6}.hero h2{font-size:44px}}
-@media (max-width:640px){.card{grid-column:span 12}}
-
-/* Services */
-.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.service{background:linear-gradient(180deg,#17171a,#111113);border:1px solid var(--ring);border-radius:20px;padding:18px}
-.service h4{font-family:Marcellus,serif;margin:4px 0 8px}
-
-@media (max-width:960px){.services{grid-template-columns:1fr}}
-
-/* Footer */
-footer{border-top:1px solid var(--ring);padding:28px 24px;color:var(--muted)}
-
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mera Website</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- NAV -->
-  <div class="nav">
-    <div class="row container">
-      <div class="brand">
-        <div class="logo" aria-hidden="true">
-          <!-- Minimal diamond mark (SVG) -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 9L7 3h10l4 6-9 12L3 9Z" stroke="#1a1408" stroke-width="1.6"/>
-            <path d="M7 3l5 6 5-6M3 9h18M12 21l-5-12m5 12 5-12" stroke="#1a1408" stroke-width="1.2"/>
-          </svg>
-        </div>
-        <h1>SJD CREATION</h1>
-      </div>
-      <nav>
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </div>  <!-- HERO -->  <header class="hero container">
-    <span class="badge">6+ YEARS • HANDCRAFTED • BESPOKE</span>
-    <h2>Timeless Jewelry, <br/>Designed Around <em>Your</em> Story.</h2>
-    <p>Welcome to <strong>SJD CREATION</strong> — a fine jewelry studio crafting bespoke pieces for bridal, festive and everyday luxe. From concept sketches to 3D renders and production guidance, we bring your ideas to life with precision and soul.</p>
-    <div class="cta">
-      <a class="btn gold" href="#contact">Start a Custom Order</a>
-      <a class="btn" href="#work">View Portfolio</a>
-    </div>
-  </header>  <!-- PORTFOLIO -->  <section id="work" class="section container">
-    <h3>Selected Work</h3>
-    <p class="muted">A glimpse of recent custom designs. Replace these placeholders with your images (recommended 1200×1500px, JPG/WebP).</p><div class="grid" id="gallery">
-  <!-- Card 1 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7?q=80&w=1200&auto=format&fit=crop" alt="Bridal Polki Necklace"/>
-    <div class="cap">
-      Bridal Polki Necklace
-      <div class="chip">Bridal</div>
-    </div>
-  </article>
-  <!-- Card 2 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1603575449230-311b0bdb99f6?q=80&w=1200&auto=format&fit=crop" alt="Diamond Halo Ring"/>
-    <div class="cap">
-      Diamond Halo Ring
-      <div class="chip">Custom</div>
-    </div>
-  </article>
-  <!-- Card 3 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1556229072-2ea8d8a2b84b?q=80&w=1200&auto=format&fit=crop" alt="Heritage Kundan Set"/>
-    <div class="cap">
-      Heritage Kundan Set
-      <div class="chip">Heirloom</div>
-    </div>
-  </article>
-  <!-- Card 4 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?q=80&w=1200&auto=format&fit=crop" alt="Minimal Gold Pendant"/>
-    <div class="cap">
-      Minimal Gold Pendant
-      <div class="chip">Daily Luxe</div>
-    </div>
-  </article>
-  <!-- Card 5 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1617038260897-167fd2acf680?q=80&w=1200&auto=format&fit=crop" alt="Emerald Studs"/>
-    <div class="cap">
-      Emerald Studs
-      <div class="chip">Gemstones</div>
-    </div>
-  </article>
-  <!-- Card 6 -->
-  <article class="card">
-    <img class="img" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Statement Cuff"/>
-    <div class="cap">
-      Statement Cuff
-      <div class="chip">Statement</div>
-    </div>
-  </article>
-</div>
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MeraSite</a>
 
-  </section>  <!-- SERVICES -->  <section id="services" class="section container">
-    <h3>What We Do</h3>
-    <div class="services">
-      <div class="service">
-        <span class="chip">Custom & Bespoke</span>
-        <h4>Concept → 3D → Final Piece</h4>
-        <p class="muted">Personalized designs with sketches, CAD renders and stone selection. Transparent material costing & timelines.</p>
-      </div>
-      <div class="service">
-        <span class="chip">Re-Design</span>
-        <h4>Heirloom Makeovers</h4>
-        <p class="muted">Transform old jewelry into modern classics while preserving sentiment and value.</p>
-      </div>
-      <div class="service">
-        <span class="chip">Collections</span>
-        <h4>Bridal • Festive • Daily Luxe</h4>
-        <p class="muted">Limited drops released seasonally. Wholesale inquiries welcome for boutiques.</p>
-      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">Categories ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="categories/category1.html">Category 1</a></li>
+              <li><a href="categories/category2.html">Category 2</a></li>
+              <li><a href="categories/category3.html">Category 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-toggle" class="menu-toggle">☰</button>
     </div>
-  </section>  <!-- ABOUT -->  <section id="about" class="section container">
-    <h3>About SJD CREATION</h3>
-    <p class="muted">Founded by a jewelry designer with <strong>6+ years</strong> of hands‑on experience in gemstone curation, CAD modeling, and artisan-led production. Our philosophy is simple — craft fewer, better pieces that age beautifully.</p>
-  </section>  <!-- CONTACT -->  <section id="contact" class="section container">
-    <h3>Start Your Custom Piece</h3>
-    <p class="muted">Tell us about your idea and budget. We typically reply within 24 hours.</p>
-    <div class="cta">
-      <a class="btn gold" href="https://wa.me/0000000000?text=Hi%20SJD%20CREATION%2C%20I%27m%20interested%20in%20a%20custom%20design" target="_blank" rel="noopener">WhatsApp</a>
-      <a class="btn" href="mailto:hello@sjdcreation.com">Email</a>
-      <a class="btn" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-    </div>
-  </section>  <footer class="container">
-    <div>© <span id="yr"></span> SJD CREATION • All rights reserved.</div>
-  </footer>  <script>
-    document.getElementById('yr').textContent=new Date().getFullYear()
-  </script></body>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section class="hero container">
+    <h1>Mera Design</h1>
+    <p>Yahan aap apna design aur categories dekh sakte ho.</p>
+  </section>
+
+  <!-- Categories grid -->
+  <section class="container categories-grid">
+    <article class="card">
+      <img src="assets/images/sample1.jpg" alt="Sample 1">
+      <h3><a href="categories/category1.html">Category 1</a></h3>
+      <p>Chhota sa description.</p>
+    </article>
+
+    <article class="card">
+      <img src="assets/images/sample2.jpg" alt="Sample 2">
+      <h3><a href="categories/category2.html">Category 2</a></h3>
+      <p>Chhota sa description.</p>
+    </article>
+
+    <article class="card">
+      <img src="assets/images/sample3.jpg" alt="Sample 3">
+      <h3><a href="categories/category3.html">Category 3</a></h3>
+      <p>Chhota sa description.</p>
+    </article>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
