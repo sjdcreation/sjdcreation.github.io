@@ -1,6 +1,6 @@
-document.getElementById('menu-toggle')?.addEventListener('click', function(){
-  const nav = document.querySelector('.main-nav');
-  if(!nav) return;
-  nav.style.display = (nav.style.display === 'flex') ? 'none' : 'flex';
-  nav.style.flexDirection = 'column';
+console.log("SJD Creation Website Loaded");
+
+// Example: simple alert on page load
+window.addEventListener('load', () => {
+    console.log("Welcome to SJD Creation!");
 });
